@@ -1,3 +1,8 @@
+/* * * * * * * * * * * * * * * 
+Author: Ishvinder Singh
+Description: The class is used for retreiving the Name of the Object on the basis of first three characters of the Salesforce ID 
+* * * * * * * * * * * * * * * */
+
 public class GetObjectName
 {
     @invocableMethod

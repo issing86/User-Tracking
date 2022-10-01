@@ -9,6 +9,7 @@ private class GetObjectNameTest
         List <String> objectName = GetObjectName.findObjectNameFromRecordId(inputString);
         System.assertEquals(objectName[0],'Case');
     }
+    
     @isTest
     private static void testMethodNegative()
     {

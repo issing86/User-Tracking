@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>CreateUserPageTrackRecord</members>
+        <members>CreateUserPageTrackRecordTest</members>
         <members>GetObjectName</members>
         <members>GetObjectNameTest</members>
         <name>ApexClass</name>
@@ -11,11 +13,10 @@
     </types>
     <types>
         <members>Send_User_Tracking_Information</members>
-        <members>User_Page_Track_Create_Record</members>
         <name>Flow</name>
     </types>
     <types>
-        <members>trackPage</members>
+        <members>communityUserTrack</members>
         <name>LightningComponentBundle</name>
     </types>
     <version>55.0</version>

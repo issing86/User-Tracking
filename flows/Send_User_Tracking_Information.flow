@@ -83,8 +83,8 @@
         <description>Create Page Tracking Record</description>
         <name>Create_Page_Tracking_Record</name>
         <label>Create Page Tracking Record</label>
-        <locationX>182</locationX>
-        <locationY>494</locationY>
+        <locationX>50</locationX>
+        <locationY>398</locationY>
         <connector>
             <targetReference>HiddenScreen</targetReference>
         </connector>
@@ -112,8 +112,8 @@
     <screens>
         <name>HiddenScreen</name>
         <label>HiddenScreen</label>
-        <locationX>182</locationX>
-        <locationY>614</locationY>
+        <locationX>50</locationX>
+        <locationY>518</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -128,19 +128,13 @@
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
-        <connector>
-            <targetReference>Create_Page_Tracking_Record</targetReference>
-        </connector>
         <fields>
-            <name>GetPageName_0</name>
-            <extensionName>c:trackPage</extensionName>
+            <name>CommunityUserTrack</name>
+            <extensionName>c:communityUserTrack</extensionName>
             <fieldType>ComponentInstance</fieldType>
-            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <inputsOnNextNavToAssocScrn>ResetValues</inputsOnNextNavToAssocScrn>
             <isRequired>true</isRequired>
-            <outputParameters>
-                <assignToReference>PageName</assignToReference>
-                <name>outputTest</name>
-            </outputParameters>
+            <storeOutputAutomatically>true</storeOutputAutomatically>
         </fields>
         <showFooter>false</showFooter>
         <showHeader>false</showHeader>
